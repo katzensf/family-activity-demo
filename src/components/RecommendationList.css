@@ -1,0 +1,32 @@
+.recommendation-list {
+  padding: 24px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.recommendation-list h2 {
+  margin: 0 0 8px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.results-subtitle {
+  margin: 0 0 24px 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.no-results {
+  margin: 0;
+  font-size: 16px;
+  color: #6b7280;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.activities-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
