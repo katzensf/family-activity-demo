@@ -13,7 +13,8 @@ function SearchForm({
   preferences,
   setPreferences,
   onSearch,
-  isLoading
+  isLoading,
+  error
 }) {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -101,6 +102,12 @@ function SearchForm({
             rows="3"
           />
         </div>
+
+        {error && (
+          <div className="error-message">
+            {error}
+          </div>
+        )}
 
         <button
           type="submit"
